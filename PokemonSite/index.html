@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/fonts.css" rel="stylesheet">
+</head>
+<body>
+    <div id="image"> </div>
+    <div id="video" onmouseenter="cima()" onmouseleave="saiu()">
+        <video id="video1" src="./videos/1.mp4"  loop autoplay></video>
+        <div id="controls">
+            <input type="image" onclick="fullscreen()" src="./images/icons/fullscreen.png">
+            <input type="image" onclick="back()" src="./images/icons/back.png"> 
+            <input type="image" onclick="diminuir()" src="./images/icons/rewind.png">
+            <input type="image" id="btnplay" onclick="play()" src="./images/icons/pause.png">
+            <input type="image" onclick="aumentar()" src="./images/icons/fast-forward.png">
+            <input type="image" onclick="next()" src="./images/icons/next.png">
+            <input type="image" onclick="stop()" src="./images/icons/stop.png">
+        </div>
+       <a href="../Entrada/index.html"><span>VOLTAR</span></a>
+    </div>
+    
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

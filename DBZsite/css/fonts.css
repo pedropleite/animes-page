@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "goku";
+    src: url(./fonts/Saiyan-Sans.ttf) format("truetype"),
+         url(./fonts/Saiyan-Sans\ Left\ Oblique.ttf) format("truetype"),
+         url(./fonts/Saiyan-Sans\ Right\ Oblique.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
