@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: fonte2;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+.container{
+    height: 100vh;
+    width: 25vw;
+    position: relative;
+}
+
+.imgf{
+    position:absolute;
+    top: 0;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.imgf:hover{
+    opacity:0;
+}
+
+body img{
+    width: 100%;
+    height:100%;
+    box-sizing: border-box;
+}
+
+h2{
+    position: absolute;
+    top: 80%;
+    left: 12%;
+    font-size: 1.8em;
+    color: white;
+    text-shadow: 4px 4px black;
+    text-align: center;
+}
+
+#h2att{
+    left:15%;
+    font-family: shingeki;
+}
+
+#h2pok{
+    top: 73%;
+    left: 29%;
+    font-family: pokemon;
+    font-size: 2em;
+    text-shadow: 2px 4px black;
+}
+
+#h2dbz{
+    top: 78%;
+    font-family: goku;
+    font-size: 2.2em;
+}
+
+#h2nar{
+    left: 32%;
+    top: 78%;
+    font-family: naruto;
+    font-size: 2.3em;
+}
+
+@media only screen and (max-width:700px) and (max-height: 1000px){
+    body{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    body h1{
+        font-size: 1.2em;
+    }
+    #h2pok{
+        top: 40%;
+        left: 24%;
+    }
+    #h2att{
+        top: 50%;
+    }
+
+    #h2dbz{
+        top: 40%;
+    }
+
+#h2nar{
+    top: 40%;
+}
+    .container{
+        height: 50vh;
+        width: 50vw;
+        position: relative;
+        border:4px black solid;
+        box-sizing: border-box;
+    }
+}
