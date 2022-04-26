@@ -1,4 +1,4 @@
-# animes-page
+# Animes Page 🎐
 
 <img width ="100%" src="https://github.com/pedropleite/animes-page/blob/main/readme.gif">
 <img width ="100%" src="https://github.com/pedropleite/animes-page/blob/main/print.png">
