@@ -50,7 +50,7 @@ function fullscreen() {
 
 function next() {
     if (i == 0) {
-        video.setAttribute("src", "./videos/2.mp4")
+        video.setAttribute("src", "./videos/2.m4v")
         i++
     }
     else if (i == 1) {
@@ -58,7 +58,7 @@ function next() {
         i++
     }
     else {
-        video.setAttribute("src", "./videos/1.mp4")
+        video.setAttribute("src", "./videos/1.m4v")
         i = 0
     }
 }
@@ -69,10 +69,10 @@ function back() {
         i = 2
     }
     else if (i == 1) {
-        video.setAttribute("src", "./videos/1.mp4")
+        video.setAttribute("src", "./videos/1.m4v")
         i = 0
     }
   else if (i == 2){
-        video.setAttribute("src","./videos/2.mp4" )
+        video.setAttribute("src","./videos/2.m4v" )
         i = 1
 }} 
